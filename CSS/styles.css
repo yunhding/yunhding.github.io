@@ -1,0 +1,1045 @@
+body	{
+	width: 80%;
+	margin-left: 100px;
+	font-family: times new roman, sans-serif;
+	font-size: medium;
+	color: black;
+	background: white;
+	text-align: left;
+	}
+
+#bodyF	{
+	font-family: nesf2, tahoma, times new roman, sans-serif;
+	font-size: medium;
+	direction: rtl;
+	color: black;
+	background: white;
+	text-align: right;
+	}
+#bodyF i	{
+	font-family: times new roman, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	font-style: normal;
+	}
+
+#page	{
+	width: 99%;
+	height: 100%;
+	font-family: inherit;
+	color: black;
+	background: inherit;
+	}
+
+#page blockquote	{
+	font-size: 11pt;
+	text-align: justify;
+	}  
+
+#page i	{
+	font-family: times new roman, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	font-style: normal;
+	}  
+
+a, a:link, a:active	{
+	color: black;
+	background: inherit;
+	}
+a:hover	{
+	color: black;
+	background-color: inherit;
+	}
+
+.fa	{
+	font-family: nesf2, tahoma, times new roman, sans-serif;
+	direction: rtl;
+	}
+
+.en	{
+	direction: ltr;
+	}
+
+.title 	{
+	font-family: baskerville, sans-serif;
+	font-size: 32pt;
+	font-weight: normal;
+	color: black;
+	background: inherit;
+	}
+
+.subtitle 	{
+	font-family: baskerville, sans-serif;
+	font-size: 14pt;
+	font-weight: normal;
+	color: black;
+	background: inherit;
+	}
+
+.bar0	{
+	font-family: verdana, times new roman, sans-serif;
+	font-size: 70%;
+	font-weight: normal;
+	color: #666666;
+	background: inherit;
+	}
+.bar0 a, .bar0 a:link, .bar0 a:active	{
+	font-weight: normal;
+	color: #666666;
+	background: inherit;
+	text-decoration: none;
+	}
+.bar0 a:hover	{
+	color: #c0c0c0;
+	background: inherit;
+	text-decoration: none;
+	}
+
+.bar	{
+	font-family: verdana, times new roman, sans-serif;
+	font-size: 90%;
+	font-weight: normal;
+	padding: 10px;
+	color: #ee0000;
+	background: inherit;
+	border-top: solid #000000 1px;
+	border-bottom: solid #000000 1px;
+	}
+.bar a, .bar a:link, .bar a:active	{
+	font-weight: bold;
+	color: #cc0000;
+	background: inherit;
+	text-decoration: none;
+	}
+.bar a:hover	{
+	color: #ff3300;
+	background: inherit;
+	text-decoration: none;
+	}
+
+#CV a.citation, #CV a.citation:link, #CV a.citation:hover, #CV a.citation:active {
+    	font-size: 85%;
+	color: grey;
+	background: inherit;
+	text-decoration: none;
+	}
+
+.publist {
+	margin-left:25px;
+	}
+
+.pubitem {
+	position:relative;
+	margin-left:28px;
+    	margin-top:-25px;
+	}
+
+.rah0	{
+	font-family: nesf2, tahoma, times new roman, sans-serif;
+	font-size: 70%;
+	font-weight: normal;
+	color: #666666;
+	background: inherit;
+	}
+.rah0 a, .rah0 a:link, .rah0 a:active {
+	font-weight: normal; 
+	text-decoration: none;
+	color: #666666;
+	background: inherit;
+	}
+.rah0 a:hover	{
+	color: #c0c0c0;
+	background: inherit;
+	text-decoration: none;
+	}
+
+.rah	{
+	font-family: nesf2, tahoma, times new roman, sans-serif;
+	font-size: 90%;
+	font-weight: normal;
+	padding: 10px;
+	color: #000099;
+	background: inherit;
+	border-top: solid #000000 1px;
+	border-bottom: solid #000000 1px;
+	}
+.rah a, .rah a:link, .rah a:active {
+	font-weight: bold;
+	text-decoration: none;
+	color: #000066;
+	background: inherit;
+	}
+.rah a:hover	{
+	color: #6699ff;
+	background: inherit;
+	text-decoration: none;
+	}
+
+.header	{
+	padding-right: 25px;
+	padding-left: 10px;
+	padding-top: 25px;
+	font-family: times new roman, sans-serif;
+	font-size: 20pt;
+	color: black;
+	background: inherit;
+	text-align: left;
+	margin-bottom: 0px;
+	}
+
+.name {
+	font-family: times new roman, sans-serif;
+	font-size: 30pt;
+	color: black;
+	background: inherit;
+	text-align: left;
+	margin-bottom: -20px;
+	margin-right: 15px;
+	margin-top: -10px;
+	font-weight: bold;
+	}	
+
+.headerF	{
+	padding-right: 50px;
+	padding-top: 25px;
+	font-family: Zar, nesf2, times new roman, sans-serif;
+	font-size: 36pt;
+	color: black;
+	background: inherit;
+	text-align: right;
+	}
+
+#buttons	{
+	font-size: normal;
+	text-align: center;
+	padding-top: 50px;
+	border-bottom: solid #000000 1px;
+	}
+#buttons a, #buttons a:link, #buttons a:active	{
+	position: relative;
+	padding: 0px 25px 0px 25px;
+	color: black;;
+	background-color: white;
+	border: none;
+	text-decoration: none;
+	bottom: 2px;
+	}
+#buttons a:hover	{
+	position: relative;
+	padding: 0px 25px 0px 25px;
+	color: black;
+	background-color: white;
+	border: none;
+	text-decoration: none;
+	bottom: 2px;
+	}
+
+.chosenbutton	{
+	font-size: large;
+	font-weight: bold;
+	position: relative;
+	padding: 0px 25px 0px 25px;
+	color: black;
+	background-color: white;
+	border: none;
+	bottom: 2px;
+	}
+
+#subteachbuttons	{
+	font-family: verdana, times new roman, sans-serif;
+	font-size: small;
+	text-align: left;
+	float: left;
+	padding-top:30px;
+	padding-left:15px;
+	padding-right:0px;
+	border-left: solid #000000 1px;
+	border-bottom: solid #000000 1px;
+	width: 350px;
+	margin-left:345px;
+	}
+
+
+#subteachbuttons a, #subteachbuttons a:link, #subteachbuttons a:active	{
+	position: relative;
+	padding: 4px;
+	color: white;
+	background-color: #ff9f44;
+	border: solid #000000 1px;
+	text-decoration: none;
+	bottom: -8px;
+	}
+#subteachbuttons a:hover	{
+	position: relative;
+	padding: 4px;
+	color: black;
+	background-color: white;
+	border: solid #ff534e 1px;
+	text-decoration: none;
+	bottom:  -8px;
+	}
+
+#subservicebuttons	{
+	font-family: verdana, times new roman, sans-serif;
+	font-size: small;
+	text-align: left;
+	float: left;
+	padding-top:30px;
+	padding-left:15px;
+	padding-right:0px;
+	border-left: solid #000000 1px;
+	border-bottom: solid #000000 1px;
+	width: 360px;
+	margin-left:455px;
+	}
+#subservicebuttons a, #subservicebuttons a:link, #subservicebuttons a:active	{
+	position: relative;
+	padding: 4px;
+	color: white;
+	background-color: #ff9f44;
+	border: solid #000000 1px;
+	text-decoration: none;
+	bottom: -8px;
+	}
+#subservicebuttons a:hover	{
+	position: relative;
+	padding: 4px;
+	color: black;
+	background-color: white;
+	border: solid #ff534e 1px;
+	text-decoration: none;
+	bottom:  -8px;
+	}
+
+
+hubbutton {
+	color: black;
+	background-color: #ff745e;
+	}
+
+#dokmeha	{
+	font-family: tahoma, times new roman, sans-serif;
+	font-size: small;
+	color: #000000;
+	text-align: left;
+	}
+#dokmeha a, #dokmeha a:link, #dokmeha a:active	{
+	color: #000000;
+	background: inherit;
+	text-decoration: none;
+	}
+#dokmeha a:hover	{
+	color: #ffffff;
+	background: inherit;
+	text-decoration: none;
+	}
+
+.xali	{
+	border-bottom: solid #000000 1px;
+	}
+
+.dokme	{
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	background-color: #57a5fb;
+	border-right: solid #000000 1px;
+	border-top: solid #000000 1px;
+	border-left: solid #000000 1px;	
+	border-bottom: solid #000000 1px;	
+	}
+
+.dokmepaxvs	{
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	background-color: #cddfff;
+	border-right: solid #000000 1px;
+	border-top: solid #000000 1px;
+	border-left: solid #000000 1px;	
+	border-bottom: solid #000000 1px;	
+	}
+
+.indokme	{
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	background-color: #ffffff;
+	border-right: solid #000000 1px;
+	border-top: solid #000000 1px;
+	border-left: solid #000000 1px;	
+	border-bottom: solid #000000 1px;	
+	}
+
+.excerpt {
+	font-size: small;
+	width: 20%;
+	float: left;
+	margin-top: 50px;
+	margin-left: 25px;
+	text-align: left;
+	}
+
+.excerptbody {
+	color: #222222;
+	background: inherit;
+	font-size: 9pt;
+	border: 1px dashed black;
+	padding: 3px;
+	}
+
+.excerptbody a, .excerptbody a:link, .excerptbody a:active	{
+	text-decoration: none;
+	}
+.excerptbody a:hover	{
+	text-decoration: none;
+	border: 1px solid black;
+	}
+.excerpt img {
+	border: 1px solid black;
+	padding: 1px;
+	}
+
+.excerpttitle {
+	font-weight: bold;
+	color: black;
+	background: inherit;
+	}
+
+#group	{
+	position: absolute;
+	left: 300px;
+	margin-top: 50px;
+	font-family: times new roman, sans-serif;
+	font-size: 100%;
+	color: black;
+	background: inherit;
+	text-align: justify;
+	line-height: 130%;
+	padding-top: 20px;
+	}
+
+#posts	{
+	position: absolute;
+	width: 46%;
+	left: 39%;
+	font-family: times new roman, sans-serif;
+	font-size: 100%;
+	color: black;
+	background: inherit;
+	text-align: justify;
+	line-height: 130%;
+	padding-top: 20px;
+	}
+
+#posts a, #posts a:link, #posts a:active	{
+	color: #0066ff;
+	background: inherit;
+	text-decoration: none;
+	line-height: 100%;
+//	border-bottom: dashed #000000 1px;
+	}
+#posts a:hover	{
+	color: #cddfff;
+	background: inherit;
+	text-decoration: none;
+	background-color: #000099;
+//	border-bottom: dashed #000000 1px;
+	}
+
+#posts h2	{
+	font-family: courier new, nesf2, times new roman, sans-serif;
+	text-align: center;
+	}
+#posts h3	{
+	font-family: courier new, nesf2, times new roman, sans-serif;
+	}
+
+
+.coordinate {
+	text-align: left;
+	margin-left: -7%;
+	}	
+
+
+.phonetic {
+	font-family: verdana, times new roman, sans-serif;
+	font-size: 90%;
+	}
+
+#links	{
+	position: absolute;
+    	right: 65%;
+	padding-top: 10px;
+	margin-top: 20px;
+    	font-family: times new roman, sans-serif;
+	font-size: 90%;
+	}
+	
+#links a, #links a:link, #links a:active
+	{color: #006600; background: inherit; text-decoration: none;}
+#links a:hover
+	{color: #00cc00; background: inherit; text-decoration: none;}
+	
+#links h2	{
+	font-family: courier new, times new roman, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	color: #000000;
+	background: inherit;
+	}
+
+#links h3	{
+	font-family: courier new, times new roman, sans-serif;
+	font-size: 90%;
+	font-weight: normal;
+	color: #000000;
+	background: inherit;
+	}
+
+#links .framed {
+	border: 1px solid black;
+	padding: 3px;
+	}
+
+#CV a.ref, #CV a.ref:link, #CV a.ref:active
+  {color: red; background: inherit; text-decoration: none; line-height: 100%;}
+#CV a.ref:hover
+  {color: #ffbbbb; background-color: #ba0707; text-decoration: none; line-height: 100%;}
+
+.pubsource {text-align: left; color: gray;}
+
+#CV a.draweri, #CV a.drawer:link, #CV a.drawer:active, #CV a.drawer:hover {
+	margin-left:-27px; 
+	padding-left:0px; 
+	padding-right:0px; 
+//	border:1px #000000 solid;
+	color: #000000; 
+	background-color: #ffffff; 
+	text-decoration: none; 
+	line-height: 100%;
+}
+
+.drawer img {
+	margin-bottom:-3px;
+	}
+
+.indrawer {
+	border-left:5px #bbbbbb solid;
+	margin-left:-14px;
+	padding-left:10px;
+        width:900px;
+	}
+
+#CV a.talk, #CV a.talk:link, #CV a.talk:active, #CV a.talk:hover {
+	margin-left:0px; 
+	padding-left:0px; 
+	padding-right:0px; 
+//	border:1px #000000 solid;
+	color: #000000; 
+	background-color: #ffffff; 
+	text-decoration: none; 
+	line-height: 100%;
+}
+
+#CV a.sim, #CV a.sim:link, #CV a.sim:active, #CV a.sim:hover {
+	margin-left:0px; 
+	padding-left:0px; 
+	padding-right:0px; 
+	border-bottom:1px #000000 dashed;
+	color: #000000; 
+	background-color: #ffffff; 
+	text-decoration: none; 
+	line-height: 100%;
+}
+
+
+.textdesc {
+	font-family: Gill Sans, verdana;
+	font-size: 95%;
+	color: gray;
+	}
+
+#CV	{
+	position: absolute;
+	width: 1000px;
+	left: 105px;
+	padding: 0px;
+	font-size: 100%;
+	text-align: left;
+	line-height: 140%;
+	text-align: justify;
+	}
+
+#CV a, #CV a:link, #CV a:active
+	{color: #0066ff; background: inherit; text-decoration: none; line-height: 100%;}
+#CV a:hover 
+	{color: #cddfff; background: inherit; text-decoration: none; background-color: #000099;}
+
+#CV h1	{
+	font-family: times new roman, sans-serif;
+	text-align: center;
+	}
+		
+#CV h2	{
+	font-family: times new roman, sans-serif;
+	margin-top: 30px;
+	}
+
+#CV .inlineimage {
+	float: right; 
+	padding: 0px; 
+	margin-left: 15px; 
+	margin-bottom: 0px; 
+	width: 325px;
+	}
+
+#CV .inlineimage img {
+	padding: 5px; 
+	border:dashed 1px black; 
+	width:325px;
+	}
+
+#CV .inlineimage p {
+	font-size:80%
+	}
+
+#CV blockquote	{
+	font-family: times new roman, sans-serif;
+	font-size: small;
+	font-style: italic;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	}
+
+.CVsec	{
+	position: relative;
+	float: top;
+	margin-left: 10px;
+	width: 100%;
+//	border: 1px solid black;
+	}
+
+.CVseperator {
+	position: relative;
+	float: top;
+	width: 100%;
+	margin-top: 20px;
+	}
+
+.CVdate	{
+	position: relative;
+	float: left;
+	margin-left: 15px;
+	width: 100px;
+	}
+	
+.CVitem	{
+	position: relative;
+	float: left;
+	left: 20px;
+	}	
+
+#poemlist	{
+	position: absolute;
+	width: 60%;
+	left: 30%;
+	font-family: verdana, times new roman, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	text-align: center;
+	line-height: 120%;
+	}
+#poemlist a, #poemlist a:link, #poemlist a:active	{
+	color: black;
+	background: inherit;
+	text-decoration: none;
+	}
+#poemlist a:hover	{
+	color: black;
+	background-color: #cccccc;
+	text-decoration: none;
+	}
+
+#poemlist a.ref, #poemlist a.ref:link, #poemlist a.ref:active
+  {font-size: 75%; color: #aaaaaa; background: inherit; text-decoration: none; line-height: 100%;}
+#poemlist a.ref:hover
+  {font-size: 75%; color: #aaaaaa; background-color: inherit; text-decoration: underline; line-height: 100%;}
+
+#poemlist h2	{
+	font-family: courier new, nesf2, times new roman, sans-serif;
+	text-align: center;
+	text-decoration: underline;
+	}
+
+#poemlist h3	{
+	font-family: georgia, times new roman, sans-serif;
+	font-size: large;
+	text-decoration: underline;
+	}
+
+.poemcomm	{
+	font-size: small;
+	font-style: italic;
+	}
+
+.poemdate	{
+	text-align: right;
+	}	
+
+#poemlinks	{
+	margin-right: 75%;
+	margin-top: 0%;
+	font-family: times new roman, sans-serif;
+	font-size: 90%;
+	}
+	
+#poemlinks a, #poemlinks a:link, #poemlinks a:active
+	{color: black; background: inherit; text-decoration: none;}
+#poemlinks a:hover
+	{color: #cccccc; background: inherit; text-decoration: none;}
+	
+#poemlinks h2	{
+	font-family: courier new, times new roman, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	color: #000000;
+	background: inherit;
+	}
+
+#poemlinks h3	{
+	font-family: courier new, times new roman, sans-serif;
+	font-size: 90%;
+	font-weight: normal;
+	color: #000000;
+	background: inherit;
+	text-decoration: underline;
+	}
+
+.poemtitle	{
+	font-weight: normal;
+	color: black;
+	background-color: #cccccc;
+	}
+
+#article	{
+	width: 80%;
+	left: 10%;
+	font-family: times new roman, sans-serif; 
+	font-size: 100%; 
+	color: #000000; 
+	background-color: inherit;
+	font-weight: normal;	
+	text-align: justify;
+	}
+#article a, #article a:link, #article a:active
+	{color: black; background: inherit; text-decoration: none;}
+// border-bottom: 1px dashed #999999;}
+#article a:hover
+	{color: #999999; background: inherit; text-decoration: none; border-bottom: 1px solid #000000;}
+#article p{
+	text-indent: 1cm;
+	}
+#article .title	{ 
+	font-family: georgia, verdana, arial, sans-serif; 
+	font-size: 135%; 
+	color: #5b300f; 
+	background-color: inherit;
+	text-transform: uppercase;
+	font-weight:normal;	
+	padding-top: 3px; 
+	padding-bottom: 4px;
+	}			
+#article .date	{ 
+	font-family: times new roman, georgia, sans-serif; 
+	font-size: 80%; 
+	color: #666666; 
+	background-color: inherit;
+	font-weight: normal;
+	text-align: right;
+	padding-bottom: 4px;
+	}			
+#article .inlineimage {
+	float:right;
+	text-align: center;
+	color: inherit;
+	background:#dafed3;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 0px;
+	border: 1px dashed #466f19;
+	font-family: verdana, sans-serif;
+	font-size:x-small;
+	font-style: italic;
+	text-align: justify;
+	text-indent: 5mm;
+	line-height: 110%;
+	}
+#article .inlineimage img{
+	padding: 0px;
+	border: 1px solid #ffffff;
+	margin: 0px;
+	}
+#article blockquote	{
+	font-family: verdana, times new roman, sans-serif;
+	font-size: 80%;
+	}
+
+#matn	{
+	position: absolute;
+	width: 60%;
+	left: 2%;
+	padding: 5px;
+	font-family: nesf2, tahoma, times new roman, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	color: black;
+	background: inherit;
+	text-align: justify;
+	line-height: 160%;
+	}
+
+#matn blockquote	{
+	font-family: Zar, nesf2, tahoma;
+	font-size: 18pt;
+	font-weight: normal;
+	line-height: 150%;
+	}
+
+#matn a, #matn a:link, #matn a:active
+	{color: #0066ff; background: inherit; text-decoration: none; line-height: 100%;}
+#matn a:hover 
+	{color: #cddfff; background: inherit; text-decoration: none; background-color: #000099;}
+
+#matn h2	{
+	font-family: courier, times new roman, sans-serif;
+	}
+#matn h3	{
+	font-family: courier new, times new roman, sans-serif;
+	}
+
+#siaahe	{
+	position: absolute;
+	width: 60%;
+	left: 2%;
+	padding: 5px;
+	font-family: nesf2, tahoma, times new roman, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: black;
+	background: inherit;
+	text-align: center;
+	line-height: 200%;
+	}
+
+#siaahe a, #siaahe a:link, #siaahe a:active
+	{color: black; background: inherit; text-decoration: none; line-height: 100%;}
+#siaahe a:hover 
+	{color: black; background-color: #cccccc; text-decoration: none;}
+
+#siaahe h2	{
+	font-family: courier, times new roman, sans-serif;
+	}
+#siaahe h3	{
+	font-family: courier new, times new roman, sans-serif;
+	}
+
+.taqdim	{
+	font-family: nesf2, tahoma, times new roman, sans-serif;
+	font-size: small;
+	font-style: italic;
+	text-align: left;
+	line-height: 100%;
+	}
+
+.tarixvsewr	{
+	font-size: 85%;
+	text-align: left;
+	line-height: 100%;
+	}	
+
+#peyvandha	{
+	font-family: tahoma, nesf2, times new roman, sans-serif;
+	font-size: xx-small;
+	margin-left: 75%;
+	margin-right: 1%;
+	}
+	
+#peyvandha a, #peivandha a:link, #peivandha a:active
+	{color: #006600; background: inherit; text-decoration: none; font-size: x-small;}
+#peyvandha a:hover
+	{color: #00cc00; background: inherit; text-decoration: none;}
+	
+#peyvandha h3	{
+	font-family: courier new, times new roman, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: #000000;
+	}
+
+#peyvandha i	{
+	font-family: times new roman, sans-serif;
+	font-size: small;
+	}
+	
+#vsewrpeyvandha	{
+	font-family: nesf2, times new roman, sans-serif;
+	font-size: small;
+	margin-left: 75%;
+	margin-right: 1%;
+	}
+	
+#vswrpeyvandha a, #vsewrpeyvandha a:link, #vsewrpeyvandha a:active
+	{color: black; background: inherit; text-decoration: none;}
+#vsewrpeyvandha a:hover
+	{color: #c0c0c0; background-color: inherit; text-decoration: none;}
+	
+#vsewrpeyvandha h3	{
+	font-family: courier new, times new roman, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: underline;
+	}
+
+.onvanvsewr	{
+	font-weight: normal;
+	background-color: #cccccc;
+	}
+	
+.sections	{
+	font-family: pristina, times new roman, sans-serif;
+	font-size: 150%;
+	color: #6105d1;
+	background-color: #cddfff;
+	text-align: right;
+	}
+	
+.subsections	{
+	font-family: pristina, times new roman, sans-serif;
+	font-size: 120%;
+	color: black;
+	background-color: #ffffff;
+	text-align: center;
+	}
+	
+.emph1	{
+	font-family: futura, papyrus, times new roman, sans-serif;
+	font-size: 100%;
+//	font-weight: bold;
+//	font-style: italic;
+//	color: #ff5c07;
+	color: #035d9f;
+//	color: #4aaa00;
+//	color: #9900ff;
+	}
+
+.emph2	{
+	font-family: papyrus, times new roman, sans-serif;
+	font-size: 100%;
+//	color: #ff0000;
+	}
+
+.tobelinked
+  {color: green; background: inherit;}
+  
+ 
+.side	{
+	font-family: times new roman, sans-serif;
+	color: black;
+	background: inherit;
+	text-align: center;
+	}
+
+.sidesections	{
+	font-family: pristina, times new roman, sans-serif;
+	font-size: 150%;
+	color: #6105d1;
+	background: inherit;
+	text-align: center;
+	}
+	
+.sidesubsections	{
+	font-family: pristina, times new roman, sans-serif;
+	font-size: 120%;
+	color: black;
+	background-color: #ffffff;
+	text-align: center;
+	}
+
+#hw .solutions	{
+//	position: relative;
+	text-align: left;
+	width: 15px;
+	float: left;
+	margin-left:50px;
+	margin-top:-12px;
+	margin-right:7px;
+	padding-top:0px;
+	padding-left:15px;
+	padding-right:0px;
+	border-left: solid #000000 1px;
+	border-bottom: solid #000000 1px;
+	}
+#hw .solutions a, #hw .solutions a:link, #hw .solutions a:active	{
+	position: relative;
+	padding: 4px;
+//	color: blue;
+	background-color: white;
+//	border: solid #000000 0px;
+	text-decoration: inherit;
+	bottom: -8px;
+	}
+#hw .solutions a:hover	{
+	position: relative;
+	padding: 4px;
+	color: #cddfff;
+	background: inherit;
+	background-color: #000099;
+//	border: solid #ff534e 1px;
+	text-decoration: none;
+	bottom:  -8px;
+	}
+
+.mylist ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.mylist li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.mylist li:before {
+  content: "▸";
+  padding-right: 5px;
+}
+
+.mypubtitle {
+    font-weight: normal;
+    font-style: normal;
+//    font-variant: small-caps;
+}
+
+.myauthname {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mypubjour {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: underline;
+}
